@@ -1,7 +1,6 @@
 # convert.py
 #     A program to convert Celsius temps to Fahrenheit
-# by: Susan Computewell
-
+# by: Sebastian Gascoine
 def main():
     print("This is a program to convert Celsius temperature to Fahrenheit")
     celsius = eval(input("What is the Celsius temperature? "))
