@@ -22,11 +22,13 @@ def main():
     r.setFill('peachpuff')
     c.setWidth(5)
     t.setWidth(20)
-    while(1==1):
-        mouses = win.checkMouse() # pause for click in window
-        if(mouses != None):
-            p1 = mouses
-            mouses.draw(win)
-            print('dot placed at',mouses.getX(),mouses.getY())
+#    while(1==1):
+#        mouses = win.checkMouse() # pause for click in window
+#        if(mouses != None):
+#            p1 = mouses
+#            mouses.draw(win)
+#            print('dot placed at',mouses.getX(),mouses.getY())
+    win.getMouse()
+    win.close()
 
 main()

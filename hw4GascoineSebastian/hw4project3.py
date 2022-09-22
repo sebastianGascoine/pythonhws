@@ -2,8 +2,8 @@
 # Programmer:    Sebastian Gascoine
 # Date:          Sep. 14, 2022
 #
-# Problem Statement: Create a simple GUI for MyFirstProgram.py using the techniques from the chapter. 
-# Your GUI should include both the input of numbers and the output of the answers
+# Problem Statement: Draw a line segment and then display graphical and textual information about the line segment. 
+# Draw the midpoint of the segment in cyan and print the length and the slope of the line.
 #
 
 import string
